@@ -23,23 +23,29 @@ The scores for ninth grade Thomas High School students were altered, requiring a
 ### Effect on district summary
 To reduce the impact of 'NaN' values on percentage passing, the total count was recalculated by ignoring the count of students in ninth grade in Thomas High School. The resultant values showed that there was not much of an impact on the overall district's performance. 
 **Result:** Minimal impact
-![District_Summary]'Resources/Images/District_Summary.png') 
-![District_Summary_Updated]Resources/Images/District_Summary_Challenge.png)
+
+![District_Summary](https://github.com/Dhanushree27/School_District_Analysis/blob/main/Resources/Images/District_Summary.PNG) 
+
+![District_Summary_Updated](https://github.com/Dhanushree27/School_District_Analysis/blob/main/Resources/Images/District_Summary_Challenge.PNG)
 
 ### Effect on school summary
 For the school summary, the summary of all the schools were calculated normally first. This calculation resulted in skewed data, since the values for ninth grade students were 'NaN'. This was not a proper reflection of the performance of the other grade students.
-![School_Summary_WithNaN]Resources/Images/School_Summary_WithNaN.png)
+
+![School_Summary_WithNaN](https://github.com/Dhanushree27/School_District_Analysis/blob/main/Resources/Images/School_Summary_WithNaN.PNG)
 
 To correct the skew, the count of Thomas High School students who had passed math, reading, both math and reading was recalculated. The percentage was then determined using the recalculated values. This revealed that there was not much of an impact on the school's overall performance due to the altered values. The altered ninth grade values did not impact the school's performance. 
 **Result:** Minimal impact
-![School_Summary]'Resources/Images/School_Summary.png') 
-![School_Summary_Updated]Resources/Images/School_Summary_Challenge.png)
+
+![School_Summary](https://github.com/Dhanushree27/School_District_Analysis/blob/main/Resources/Images/School_Summary.PNG) 
+
+![School_Summary_Updated](https://github.com/Dhanushree27/School_District_Analysis/blob/main/Resources/Images/School_Summary_Challenge.PNG)
 
 ### Relative ranking of Thomas High School
 Though there was not a considerable difference in '% Overall Passing' of Thomas High School after the removal of ninth grade scores, there was a slight reduction of 
 **0.31**. Despite this reduction, Thomas High School remained in the second position in the list of top 5 schools
 **Result:** No impact
-![Top_Schools]'Resources/Images/Top_Schools.png')
+
+![Top_Schools](https://github.com/Dhanushree27/School_District_Analysis/blob/main/Resources/Images/Top_Schools.PNG)
 
 ### Math and Reading scores by grade
 Since the scores of 9th grade students of Thomas High School were replaced with NaN, it was not possible to compute the grade average for math and reading for the same. Also, there was no impact on the other values as there was no relationship between each grade, or school
